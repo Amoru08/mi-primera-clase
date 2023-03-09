@@ -5,9 +5,9 @@ public class Playlist{
     private boolean reproduciendo;
     
     
-    public Playlist (String ElNombre, int NumeroCancion){
-        nombre = ElNombre;
-        numeroCanciones = NumeroCancion;
+    public Playlist (String elNombre, int numeroCancion){
+        nombre = elNombre;
+        numeroCanciones = numeroCancion;
         reproduciendo = false;
         
     }
@@ -20,7 +20,7 @@ public class Playlist{
         return numeroCanciones;
     }
     
-    public boolean Reproductor(){
+    public boolean reproductor(){
         return reproduciendo;
     }
     
@@ -28,11 +28,11 @@ public class Playlist{
         this.nombre = nombre;
     }
     
-    public void AgregarCancion(int numeroCancion){
+    public void agregarCancion(int numeroCancion){
         this.numeroCanciones = numeroCanciones + numeroCancion;
     }
     
-    public void paraOreproducir(){
+    public void paraOreproduce(){
         this.reproduciendo = reproduciendo;
     }
     
